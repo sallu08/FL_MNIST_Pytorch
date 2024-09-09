@@ -28,5 +28,13 @@ In each of the command prompts, navigate to the directory where your files are l
 
 
 
-In the first command prompt, run the server: python server.py,then python client_aus.py, python client_ind.py and python client_usa.py
+In the first command prompt, run the server: 
+
+python server.py
+
+then run: python client_aus.py 
+
+python client_ind.py
+
+python client_usa.py
 
