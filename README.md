@@ -1,15 +1,16 @@
-Create and Activate Virtual Environment:
+Create a Virtual Environment:
 
 
 python -m venv venv
 
 
-Then activate this virtual environment
+Then activate this virtual environment 
 
 
 source venv/bin/activate
 
-install required libraires
+
+Then install required libraires
 
 
 pip install -r requirements.txt
