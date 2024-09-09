@@ -127,7 +127,7 @@ def fit_config(server_round: int):
     """Return training configuration dict for each round."""
     return {
         "batch_size": 32,        # 32 images at a time are taken as input
-        "local_epochs": 1        # Each client runs model (3) times then sends result to server
+        "local_epochs": 3        # Each client runs model (3) times then sends result to server
     }
 
 def evaluate_config(server_round: int):
